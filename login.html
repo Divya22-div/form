@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form</title>
+  </head>
+  <link rel="stylesheet" href="login.css" />
+  <body>
+    <div class="maindiv">
+      <h2><b><i>create your account</i></b></h2>
+    <!-- fristname lastname -->
+      <div class="name">
+        <label for="first name"
+          >first name <br />
+          <input
+            type="text"
+            id="enter your name"
+            placeholder="enter your first name"
+          />
+        </label>
+        <label for="last name"
+          >last name <br />
+          <input
+            type="text"
+            id="enter your name"
+            placeholder="enter your last name"
+          />
+        </label>
+      </div>
+      <!-- for email -->
+      <div class="form">
+        <label>Email <br />
+          <input type="email" id="email" placeholder=" enter your email" style="width: 200px;" />
+        </label>
+      </div>
+      <!-- for password -->
+      <div class="form">
+        <label >Password <br>
+
+        <input type="password" id="password" placeholder=" create a password" >
+         </label>
+      </div>
+      <!-- birthdate -->
+       <div class="form" style="display: flex; gap: 30px;">
+        <label> Birth Date <br>
+        <input type="date"  id="birthdate" placeholder="dd-mm-yyyy">
+      </label>
+       
+      <label>Gender<br>
+      
+        <select>  <option disabled  value="Gender">select Gender</option> <option value="M">Male</option>
+          <option value="F">Female</option>
+        </select>
+      </label>
+    </div>
+    <!-- for button -->
+   <div class="btn"> <button >login</button></div>
+
+    </div>
+  </body>
+</html>

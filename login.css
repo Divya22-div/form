@@ -1,0 +1,39 @@
+.name{
+    display: flex;
+    gap: 30px;
+}
+
+body{
+    background: url("https://media.gettyimages.com/id/1400045121/photo/an-elevated-view-of-the-london-skyline-looking-east-to-west.jpg?s=612x612&w=0&k=20&c=TXwy0U9T65NZ-gEMPmMBl8ic-63k5d3z_WhRBQH_SHE=");
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+h2{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 35px;
+   margin-left: 30px;
+   padding-bottom: 40px;
+}
+.maindiv{
+    gap: 30px;
+
+}
+.name{
+    margin: 20px;
+}
+.form{
+  margin: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .btn{
+    margin-left: 100px ;
+ height: 25px;
+ width: 40px;
+  }
+  
